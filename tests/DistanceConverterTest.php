@@ -22,9 +22,6 @@ class DistanceConverterTest extends TestCase
         $this->assertEquals(100, $result);
     }
 
-    // $distanceConverter->fromMeter()->toKm()->convert(10);
-    // $distanceConverter->fromMile()->toMeter()->convert(1);
-
     #[Test]
     public function it_returns_same_value_if_no_target_is_provided()
     {
